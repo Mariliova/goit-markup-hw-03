@@ -300,7 +300,7 @@ body {
 }
 
 .features-list .item {
-  width: calc((100% - (30px*3))/4);
+  flex-basis: calc((100% - (30px*3))/4);
 }
 
 .features .title {
@@ -372,6 +372,7 @@ body {
 .team .card {
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - (30px*3))/4);
 }
 
 /* Portfolio */
@@ -381,6 +382,10 @@ body {
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
+}
+
+.portfolio .card {
+  flex-basis: calc((100% - (30px*2))/3);
 }
 
 .portfolio .title {
