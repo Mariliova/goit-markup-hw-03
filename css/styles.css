@@ -52,6 +52,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   padding: 10px 32px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 
   color: var(--color-white);
   background-color: var(--color-accent);
@@ -172,6 +175,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   color: var(--color-secondary);
 }
@@ -243,16 +248,18 @@ body {
   letter-spacing: 0.03em;
 }
 
+.page-footer .list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
 .address-link {
-  display: block;
   color: var(--color-white);
-  margin-bottom: 9px;
 }
 
 .phone-link {
-  display: block;
   color: var(--color-whitish);
-  margin-bottom: 9px;
 }
 
 .email-link {
@@ -273,8 +280,6 @@ body {
 
 .hero {
   background-color: var(--color-bg-dark);
-  text-align: center;
-  /* тимчасове рішення для центрування */
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -288,6 +293,9 @@ body {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
 
   color: var(--color-white);
 }
@@ -350,7 +358,6 @@ body {
 
 .team .img {
   display: block;
-  margin-bottom: 30px;
 }
 
 .team .title {
@@ -370,9 +377,13 @@ body {
 }
 
 .team .card {
-  padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - (30px*3))/4);
+}
+
+.team .card-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Portfolio */
