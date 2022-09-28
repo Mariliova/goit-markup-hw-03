@@ -175,6 +175,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -308,7 +309,7 @@ body {
 }
 
 .features-list .item {
-  flex-basis: calc((100% - (30px*3))/4);
+  flex-basis: calc((100% - (30px * 3)) / 4);
 }
 
 .features .title {
@@ -378,7 +379,7 @@ body {
 
 .team .card {
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - (30px*3))/4);
+  flex-basis: calc((100% - (30px * 3)) / 4);
 }
 
 .team .card-content {
@@ -396,7 +397,7 @@ body {
 }
 
 .portfolio .card {
-  flex-basis: calc((100% - (30px*2))/3);
+  flex-basis: calc((100% - (30px * 2)) / 3);
 }
 
 .portfolio .title {
@@ -428,4 +429,3 @@ body {
   border-right: 1px solid var(--color-line-second);
   border-bottom: 1px solid var(--color-line-second);
 }
-
